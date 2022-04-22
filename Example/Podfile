@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GMXSwiftExtension_Example' do
+  pod 'GMXSwiftExtension', :path => '../'
+
+  target 'GMXSwiftExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
