@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		002ED7A5B3AE8D00B02E1A03 /* Pods_GMXSwiftExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMXSwiftExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0636C7DB21E9AD9E20812298 /* Pods-GMXSwiftExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMXSwiftExtension_Tests.release.xcconfig"; path = "Target Support Files/Pods-GMXSwiftExtension_Tests/Pods-GMXSwiftExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5AE858A609CCCEEA84B44FD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5F16555C537FA10862052B35 /* GMXSwiftExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GMXSwiftExtension.podspec; path = ../GMXSwiftExtension.podspec; sourceTree = "<group>"; };
+		5AE858A609CCCEEA84B44FD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5F16555C537FA10862052B35 /* GMXSwiftExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GMXSwiftExtension.podspec; path = ../GMXSwiftExtension.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GMXSwiftExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMXSwiftExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		74577985BFA0354754BA32DA /* Pods-GMXSwiftExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMXSwiftExtension_Example.debug.xcconfig"; path = "Target Support Files/Pods-GMXSwiftExtension_Example/Pods-GMXSwiftExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		857DF11149387B43FDC25764 /* Pods_GMXSwiftExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMXSwiftExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A494C3AD776C0B5270B5F89E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A494C3AD776C0B5270B5F89E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AF1B4C20AB8BBDF8C65880B1 /* Pods-GMXSwiftExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMXSwiftExtension_Example.release.xcconfig"; path = "Target Support Files/Pods-GMXSwiftExtension_Example/Pods-GMXSwiftExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E0F4F925431F1130F872867D /* Pods-GMXSwiftExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMXSwiftExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GMXSwiftExtension_Tests/Pods-GMXSwiftExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				E0F4F925431F1130F872867D /* Pods-GMXSwiftExtension_Tests.debug.xcconfig */,
 				0636C7DB21E9AD9E20812298 /* Pods-GMXSwiftExtension_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

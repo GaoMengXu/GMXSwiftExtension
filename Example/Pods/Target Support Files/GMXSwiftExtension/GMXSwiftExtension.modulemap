@@ -1,0 +1,6 @@
+framework module GMXSwiftExtension {
+  umbrella header "GMXSwiftExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

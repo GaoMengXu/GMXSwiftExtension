@@ -1,0 +1,6 @@
+framework module Pods_GMXSwiftExtension_Tests {
+  umbrella header "Pods-GMXSwiftExtension_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

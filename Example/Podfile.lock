@@ -1,0 +1,16 @@
+PODS:
+  - GMXSwiftExtension (0.1.0)
+
+DEPENDENCIES:
+  - GMXSwiftExtension (from `../`)
+
+EXTERNAL SOURCES:
+  GMXSwiftExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GMXSwiftExtension: 5e7126878a7049dc734593a55febd183f20ba65b
+
+PODFILE CHECKSUM: a94b299d05860a3abce41b28c63305d6649d8be9
+
+COCOAPODS: 1.11.2
